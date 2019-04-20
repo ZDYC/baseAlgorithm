@@ -15,4 +15,5 @@ def bubble(nlist,direction=True):
     return nlist
 
 
-print(bubble([2,3,45,1]))
+if __name__ == '__main__':
+    print(bubble([2,3,45,1]))
