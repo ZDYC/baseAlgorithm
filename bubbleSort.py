@@ -2,7 +2,7 @@ def bubble(nlist,direction=True):
     """
     bubble sort
     when direction is True,min to max,
-    is False, max to min
+    when direction is False, max to min
     """
     for i in range(0,len(nlist)-1):
         for j in range(0,len(nlist)-i-1):
