@@ -8,6 +8,7 @@ def bubble(collections,direction=True):
     [0, 2, 2, 3, 5]
     >>> bubble([0, 5, 3, 2, 2], direction=False)
     [5, 3, 2, 2, 0]
+
     """
     for i in range(0,len(collections)-1):
         for j in range(0,len(collections)-i-1):
